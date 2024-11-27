@@ -1,0 +1,65 @@
+{
+  "tareas": [
+    {
+      "id": "1",
+      "titulo": "Estudiar"
+    },
+    {
+      "id": "2",
+      "titulo": "Arreglas Cuarto"
+    },
+    {
+      "id": "3",
+      "titulo": "Lavar Moto"
+    },
+    {
+      "id": "4",
+      "titulo": "Cosa"
+    },
+    {
+      "id": "5",
+      "titulo": "aaa"
+    },
+    {
+      "id": "6",
+      "titulo": "asda"
+    }
+  ],
+  "actividads": [
+    {
+      "id": "1",
+      "nombre": "Alistar materia",
+      "tareaId": "1"
+    },
+    {
+      "id": "2",
+      "nombre": "Arreglar comedor",
+      "tareaId": "2"
+    },
+    {
+      "id": "1",
+      "nombre": "Alistar el jabon",
+      "tareaId": "3"
+    },
+    {
+      "id": "2",
+      "nombre": "Alistar el agua ",
+      "tareaId": "3"
+    },
+    {
+      "id": "3",
+      "nombre": "preparar trapos",
+      "tareaId": "3"
+    },
+    {
+      "id": "1",
+      "nombre": "Cosa 1",
+      "tareaId": "4"
+    },
+    {
+      "id": "2",
+      "nombre": "Cosa 2",
+      "tareaId": "4"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<h1>Tarea Pendientes</h1>
+@if(!visibleAdd){
+  <button (click)="visibleAdd=!visibleAdd">
+    Agregar Nueva Tarea
+  </button>
+}
+@if(visibleAdd){
+  <button (click)="visibleAdd=!visibleAdd">
+    Ocultar Formulario
+  </button>
+  <section id="formulario">
+      <input type="text" [(ngModel)]="newTarea.titulo" name="titulo">
+      <button (click)="onGuardar()">Guardar</button>
+  </section>
+}
+<ul>
+  @for (item of tareasList; track $index) {
+    <li style="cursor: pointer; border-bottom: 1px solid #cacaca; padding: 10px;">
+      {{ item.titulo }}
+      <a [routerLink]="[ '/actividades', item.id]"> Actividades </a>
+    </li>
+  }
+</ul>
+
